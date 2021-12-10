@@ -32,7 +32,6 @@
             <br>
             <input type="text" name="categoria">
         </label>
-        <br>
         @error('categioria')
         <br>
             <small>*{{$message}}</small>
