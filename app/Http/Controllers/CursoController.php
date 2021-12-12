@@ -35,7 +35,7 @@ class CursoController extends Controller
         $request->validate([
             'name'=> 'required',
             'descripcion'=>'required',
-            'categoria'=>'required'
+            'categoria'=>'required',
         ]);
         
         $curso->name = $request->name;
