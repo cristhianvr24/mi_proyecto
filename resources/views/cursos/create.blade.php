@@ -9,34 +9,39 @@
             <br>
             <input type="text" name="name">
         </label>
+
         @error('name')
-        <br>
-            <small>*{{$message}}</small>
-        <br>
+            <br>
+                <small>*{{$message}}</small>
+            <br>
         @enderror
+
         <br>
         <label>
-            Descripcion: 
+            Descripción: 
             <br>
             <textarea name="descripcion" rows="5"></textarea>
         </label>
-        <br>
+
         @error('descripcion')
-        <br>
-            <small>*{{$message}}</small>
-        <br>
+            <br>
+                <small>*{{$message}}</small>
+            <br>
         @enderror
+
         <br>
         <label>
             Categoria: 
             <br>
             <input type="text" name="categoria">
         </label>
-        @error('categioria')
-        <br>
-            <small>*{{$message}}</small>
-        <br>
+        
+        @error('categoria')
+            <br>
+                <small>*{{$message}}</small>
+            <br>
         @enderror
+
         <br>
         <button type="submit">Enviar Formulario</button>
     </form>
