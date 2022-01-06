@@ -8,10 +8,19 @@
     
     <!--favicom-->
     <!--estilos-->
+
+    <style>
+        .active{
+            color:red;
+            font-weight: bold;
+        }
+    </style> 
+
 </head>
 <body>
     <!--header-->
     <!--nav--> 
+    @include('layauts.partials.header')
     <h1>@yield('content')</h1>
     <!--fonter-->
     <!--script-->
